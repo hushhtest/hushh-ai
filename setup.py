@@ -19,6 +19,7 @@ setup(
     author_email = 'yash@hushh.ai',
     url = 'https://hushh-garage.store/',
     description = 'Internal developer portal for GPU access and resources',
+    long_description_content_type = "text/markdown",  # If this causes a warning, upgrade your setuptools package
     long_description = long_description,
     license = "MIT license",
     packages = find_packages(exclude=["test"]),  # Don't include test directory in binary distribution
@@ -27,5 +28,5 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-    ]
+    ]  # Update these accordingly
 )
